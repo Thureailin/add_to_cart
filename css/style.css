@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    font-family: 'Alegreya SC', serif;
+
+
+}
+counter {
+    font-family: 'Rampart One', cursive;
+    font-size: 5em;
+    margin: 100vh auto 40vh;
+}
+.counter:not(.is-visible) {
+    visibility: hidden;
+}
+.container-fluid{
+
+}
+
+.book{
+    border-radius: 50px;
+}
+.watch{
+    border-radius: 50px;
+}
+.play{
+    padding:50px;
+    border-radius:10px;
+
+}
+#first-container{
+
+}
+#second-container{
+
+}
+#third-container{
+
+}
+#fourth-container {
+}
+#five-container{
+
+}
+#card2{
+    border:1px solid black;
+}
+#card2:hover{
+    background-color: #a1062f;
+    padding:10px;
+    border:1px solid black;
+    transition: 0.1s;
+}
+#card7{
+    background-color: #090918;
+    border:5px solid #09fc74;
+    border-radius:10px;
+}
+#card7:hover{
+    padding:1px;
+    transition:0.2s;
+
+}
+#card8{
+
+    border:2px solid #e84407;
+    border-radius:10px;
+}
+#card8:hover{
+    padding:20px;
+    transition:0.2s;
+
+}
+#card9{
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+#card5{
+    background-color: #6e5330;
+    border:1px solid #0bf32a;
+}
+
+#card5:hover{
+    padding:10px;
+    border:3px solid saddlebrown;
+    transition:0.3s;
+}
+#cart-m{
+    background-color: #38383d;
+}
+.cc{
+    padding:15px;
+}
+
+.menu{
+
+    text-decoration: none;
+
+}
+.aa{
+    border-bottom:3px solid red;
+}
+.bb{
+    border-bottom:2px solid black;
+}
+#carousel{
+    border-left:3px solid red;
+}
+#nav-container{
+    background-solor: #a89c9c;
+}
+#myCarousel{
+    border:5px solid red;
+
+}
+#small-card{
+    background-color:lightgray;
+    border:1px solid #011223;
+}
+#small-card:hover{
+    padding:10px;
+}
+.night{
+    content:"";
+    position: relative;
+}
+#mood-change{
+    content:"";
+    z-index:2;
+    position:absolute;
+    top:20px;
+    right:70px;
+    border:2px solid red;
+}
